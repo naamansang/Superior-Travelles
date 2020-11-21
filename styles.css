@@ -1,0 +1,103 @@
+*{
+    font-family: Ribeye;
+}
+.home li{
+    display: inline;
+    float:left;
+}
+.home ul{
+    height: 50px;
+    width: 400px;
+    left: 587px;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: black;
+    float: right;
+}
+.home{
+    background-image: url('/images/zebra.jpeg');
+    height:250px;
+    width:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+.home a:hover{
+    background-color:maroon;
+}
+#back{
+    position: absolute;
+    background-color: #222831;
+    width: 1254px;
+    height: 700px;
+    padding-left: 20px;
+}
+#back .goal{
+    left: 0px;
+    position:absolute;
+    font-style: Ribeye;
+    font-size: 40px;
+    text-align: justify;
+    width: 460px;
+    height: 502px;
+    color:#FBD46D ;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 352px;
+    height: 191px;
+}
+#back .contacts {
+    position: absolute;
+    margin: auto;
+    width: 60%;
+    float: center;
+    right: 2px;
+    font-size: 20px;
+    color: #ffffff;
+}
+#back .services {
+    position: absolute;
+    right: 150px;
+    width: 200px;
+    top: 10px;
+    color: #ffffff;
+    font-size: 40px;  
+}
+h1:hover{
+    font-size:px;
+    text-align: justify;
+    padding: 3px;
+    font-weight:10px;
+    color:#ffffff;
+    top: 700px;
+    bottom: 0%;
+}
+#back .Feedback{
+    position: absolute;
+    bottom: 60px;
+    font-size: 30px;
+    height:150px;
+    color: #ffffff;
+
+}
+#back a:hover{
+    color: #ffffff;
+    background-color:red;
+}
+#back a{
+    color: #ffffff;
+}
+img:hover{
+    filter: drop-shadow(8px 8px 10px gray);
+}
