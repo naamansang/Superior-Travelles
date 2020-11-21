@@ -16,7 +16,7 @@
     float: right;
 }
 .home{
-    background-image: url('/images/zebra.jpeg');
+    background-image: url(./images/zebra.jpeg);
     height:250px;
     width:auto;
     background-size: cover;
